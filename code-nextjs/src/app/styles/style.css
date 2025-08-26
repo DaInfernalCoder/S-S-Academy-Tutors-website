@@ -89,8 +89,8 @@ Version: 1.0.0
   display: inline-block;
 }
 .header .logo img {
-  max-width: 400px;
-  max-height: 100px;
+  max-width: 500px;
+  max-height: 140px;
   object-fit: contain;
 }
 .header .navbar {
