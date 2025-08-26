@@ -89,7 +89,18 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -59px;
+    margin-left: -90px;
+    width: 180px;
+    height: 35px;
+    transform: skewX(-28deg);
+  }
+  .section-title h6 {
+    font-size: 15px;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    z-index: 11;
   }
   .service-area .single-service {
     padding: 20px;
@@ -399,7 +410,18 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -58px;
+    margin-left: -90px;
+    width: 180px;
+    height: 35px;
+    transform: skewX(-28deg);
+  }
+  .section-title h6 {
+    font-size: 14px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    z-index: 11;
   }
   .section-title h3 {
     font-size: 20px;
