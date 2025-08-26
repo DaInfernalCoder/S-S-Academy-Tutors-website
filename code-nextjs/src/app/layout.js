@@ -33,8 +33,8 @@ import "./globals.css";
 
 export const metadata = {
   title:
-    "PeakValue Business Advisors",
-  description: "Trusted consulting firm providing strategic guidance, financial advisory, and business transformation services to help organizations reach their peak potential and maximize value.",
+    "S&S Academy Tutors",
+  description: "S&S Academy Tutors is a platform that provides tutoring services to students.",
 };
 
 export default function RootLayout({ children }) {
