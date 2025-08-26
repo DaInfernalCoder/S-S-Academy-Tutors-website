@@ -13,7 +13,7 @@ export default function CoursesClient() {
     subtitle: "Elementary & Middle School",
     description: "Building strong foundations in core subjects for young learners",
     backgroundColor: "#f8fafc",
-    textColor: "#ffffff",
+    textColor: "#000000",
     filterKey: "k8",
     subjects: [
       {
@@ -107,7 +107,7 @@ export default function CoursesClient() {
     subtitle: "Specialized Programs",
     description: "Comprehensive preparation for standardized tests, academic competitions, and college applications",
     backgroundColor: "#ffffff",
-    textColor: "#ffffff",
+    textColor: "#000000",
     filterKey: "testprep",
     subjects: [
       {
@@ -145,17 +145,11 @@ export default function CoursesClient() {
   };
 
   const CourseSection = ({ sectionData, isReversed = false }) => {
-    const textShadowStyle = {
-      textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5), 1px 1px 2px rgba(0, 0, 0, 0.3)',
-      fontWeight: 'bold'
-    };
-
     return (
       <section 
         className="course-section" 
         style={{ 
-          backgroundColor: sectionData.backgroundColor,
-          color: sectionData.textColor 
+          backgroundColor: sectionData.backgroundColor
         }}
       >
         <div className="container">
@@ -164,13 +158,10 @@ export default function CoursesClient() {
               <div className="section-content">
                 <div className="section-title">
                   <h6 style={{ 
-                    color: sectionData.textColor, 
-                    opacity: 0.90,
-                    ...textShadowStyle
+                    color: sectionData.textColor
                   }}>{sectionData.subtitle}</h6>
                   <h2 style={{ 
-                    color: sectionData.textColor,
-                    ...textShadowStyle
+                    color: sectionData.textColor
                   }} className="mb-4">{sectionData.title}</h2>
                   <div 
                     className="line-bot" 
@@ -180,9 +171,7 @@ export default function CoursesClient() {
                     }}
                   ></div>
                   <p style={{ 
-                    color: sectionData.textColor, 
-                    opacity: 0.95,
-                    ...textShadowStyle
+                    color: sectionData.textColor
                   }} className="mb-4">{sectionData.description}</p>
                 </div>
               </div>
