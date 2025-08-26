@@ -27,7 +27,7 @@ export default function Service() {
               icon="fa fa-child"
               title="Elementary & Middle School (K-8)"
               description="Comprehensive support for foundational learning in English, Math, Science, and Social Studies. We offer On-Level and AAC programs tailored to help younger students build strong academic foundations and develop essential study skills."
-              btnURL="contact"
+              btnURL="courses#k8"
               image="https://images.unsplash.com/photo-1604307743907-df8d5fe9f1de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />
             </div>
@@ -40,8 +40,8 @@ export default function Service() {
               cardNumber="2"
               icon="fa fa-university"
               title="High School & Advanced Courses"
-              description="Expert instruction in high school subjects including English 1-2, Sciences (Biology, Chemistry, Physics), and Mathematics (Algebra 1, Geometry, Algebra 2, Pre-Calculus). Plus comprehensive AP courses and OnRamps programs for college-bound students."
-              btnURL="contact"
+              description="Experienced in Dual Credit, On-Level, AP, AAC, and OnRamps."
+              btnURL="courses#highschool"
               image="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />
             </div>
@@ -55,7 +55,7 @@ export default function Service() {
               icon="fa fa-graduation-cap"
               title="Test Prep & College Counseling"
               description="Comprehensive preparation for STAAR exams, EOC tests, CBEs, SAT, ACT, and PSAT. Plus personalized college counseling including course planning, extracurricular guidance, and strategic college application support."
-              btnURL="contact"
+              btnURL="courses#testprep"
               image="https://images.unsplash.com/photo-1542959864-4b02e6607fe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />
             </div>

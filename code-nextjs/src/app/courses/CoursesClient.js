@@ -147,6 +147,7 @@ export default function CoursesClient() {
   const CourseSection = ({ sectionData, isReversed = false }) => {
     return (
       <section 
+        id={sectionData.filterKey}
         className="course-section" 
         style={{ 
           backgroundColor: sectionData.backgroundColor

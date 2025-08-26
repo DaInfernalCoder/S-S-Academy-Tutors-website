@@ -103,9 +103,7 @@ export default function WhyUs() {
                 </div>
                 <h3 style={featureTitleStyle}>High School & Advanced Courses</h3>
                 <p style={featureTextStyle}>
-                  Expert instruction in high school subjects including English 1-2, Sciences (Biology, Chemistry, Physics), 
-                  and Mathematics (Algebra 1, Geometry, Algebra 2, Pre-Calculus). Plus comprehensive AP courses and 
-                  OnRamps programs for college-bound students.
+                  Experienced in Dual Credit, On-Level, AP, AAC, and OnRamps.
                 </p>
               </div>
             </div>
