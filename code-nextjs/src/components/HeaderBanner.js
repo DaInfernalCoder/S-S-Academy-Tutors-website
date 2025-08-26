@@ -58,13 +58,14 @@ export default function HeaderBanner({
         padding: '0 20px',
         width: '100%'
       }}>
-        <h1 style={{ 
-          fontSize: '42px', 
-          fontWeight: '700', 
+        <h1 style={{
+          fontSize: '42px',
+          fontWeight: '700',
           marginBottom: '15px',
           textTransform: 'capitalize',
           color: 'white', // Explicitly setting text color to white
-          textShadow: '0 2px 4px rgba(0,0,0,0.5)' // Adding shadow to ensure text visibility on any background
+          textShadow: '0 3px 8px rgba(0,0,0,0.8), 0 1px 2px rgba(0,0,0,0.9)', // Multiple shadows for stronger outline
+          WebkitTextStroke: '1px rgba(0,0,0,0.3)' // Text outline for extra visibility
         }}>
           {title}
         </h1>

@@ -89,8 +89,8 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -110px;
-    width: 220px;
+    margin-left: -140px;
+    width: 280px;
     height: 35px;
     transform: skewX(-28deg);
   }
@@ -410,8 +410,8 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -110px;
-    width: 220px;
+    margin-left: -140px;
+    width: 280px;
     height: 35px;
     transform: skewX(-28deg);
   }
