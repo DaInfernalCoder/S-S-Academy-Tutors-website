@@ -9,6 +9,7 @@ const DEFAULT_IMAGES = {
   contact: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080", // Professional signing document
   consultation: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080", // Business meeting/consultation
   blog: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080", // Professional workspace with laptop/documents
+  courses: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080", // Students studying with books and laptops
   default: "/images/breadcrumbs-bg.jpg"
 };
 
@@ -17,7 +18,7 @@ export default function HeaderBanner({
   backgroundImage = "/images/breadcrumbs-bg.jpg",
   bannerType, // New prop for selecting from our preset images
   height = "400px",
-  overlayColor = "rgba(0, 38, 95, 0.8)", // Using brand blue with opacity
+  overlayColor = "rgba(230, 126, 34, 0.8)", // Using brand orange with opacity
   titleWidth = "800px", // Making the title container wider as requested
   showOverlay = true // New prop to control whether to show the overlay or not
 }) {

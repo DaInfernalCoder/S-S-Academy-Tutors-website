@@ -39,13 +39,13 @@ export default function Process() {
                   lineHeight: '1', 
                   opacity: '0.8',
                   marginRight: '25px',
-                  color: '#00265F'
+                  color: '#E67E22'
                 }}>
                   01
                 </div>
                 <div>
                   <h3 style={{ fontSize: '24px', marginBottom: '15px', fontWeight: '700', color: '#26313c' }}>
-                    <i className="fa fa-comments" style={{ marginRight: '10px', color: '#00265F' }}></i>
+                    <i className="fa fa-comments" style={{ marginRight: '10px', color: '#E67E22' }}></i>
                     Consultation
                   </h3>
                   <p style={{ marginBottom: '20px', lineHeight: '1.6', color: '#333' }}>
@@ -59,7 +59,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -70,7 +70,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -81,7 +81,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -101,13 +101,13 @@ export default function Process() {
                   lineHeight: '1', 
                   opacity: '0.8',
                   marginRight: '25px',
-                  color: '#00265F'
+                  color: '#E67E22'
                 }}>
                   02
                 </div>
                 <div>
                   <h3 style={{ fontSize: '24px', marginBottom: '15px', fontWeight: '700', color: '#26313c' }}>
-                    <i className="fa fa-search" style={{ marginRight: '10px', color: '#00265F' }}></i>
+                    <i className="fa fa-search" style={{ marginRight: '10px', color: '#E67E22' }}></i>
                     Assessment
                   </h3>
                   <p style={{ marginBottom: '20px', lineHeight: '1.6', color: '#333' }}>
@@ -120,7 +120,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -131,7 +131,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -142,7 +142,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -162,13 +162,13 @@ export default function Process() {
                   lineHeight: '1', 
                   opacity: '0.8',
                   marginRight: '25px',
-                  color: '#00265F'
+                  color: '#E67E22'
                 }}>
                   03
                 </div>
                 <div>
                   <h3 style={{ fontSize: '24px', marginBottom: '15px', fontWeight: '700', color: '#26313c' }}>
-                    <i className="fa fa-handshake-o" style={{ marginRight: '10px', color: '#00265F' }}></i>
+                    <i className="fa fa-handshake-o" style={{ marginRight: '10px', color: '#E67E22' }}></i>
                     Match
                   </h3>
                   <p style={{ marginBottom: '20px', lineHeight: '1.6', color: '#333' }}>
@@ -181,7 +181,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -192,7 +192,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -203,7 +203,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -223,13 +223,13 @@ export default function Process() {
                   lineHeight: '1', 
                   opacity: '0.8',
                   marginRight: '25px',
-                  color: '#00265F'
+                  color: '#E67E22'
                 }}>
                   04
                 </div>
                 <div>
                   <h3 style={{ fontSize: '24px', marginBottom: '15px', fontWeight: '700', color: '#26313c' }}>
-                    <i className="fa fa-graduation-cap" style={{ marginRight: '10px', color: '#00265F' }}></i>
+                    <i className="fa fa-graduation-cap" style={{ marginRight: '10px', color: '#E67E22' }}></i>
                     Sessions
                   </h3>
                   <p style={{ marginBottom: '20px', lineHeight: '1.6', color: '#333' }}>
@@ -242,7 +242,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -253,7 +253,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -264,7 +264,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -284,13 +284,13 @@ export default function Process() {
                   lineHeight: '1', 
                   opacity: '0.8',
                   marginRight: '25px',
-                  color: '#00265F'
+                  color: '#E67E22'
                 }}>
                   05
                 </div>
                 <div>
                   <h3 style={{ fontSize: '24px', marginBottom: '15px', fontWeight: '700', color: '#26313c' }}>
-                    <i className="fa fa-line-chart" style={{ marginRight: '10px', color: '#00265F' }}></i>
+                    <i className="fa fa-line-chart" style={{ marginRight: '10px', color: '#E67E22' }}></i>
                     Progress
                   </h3>
                   <p style={{ marginBottom: '20px', lineHeight: '1.6', color: '#333' }}>
@@ -303,7 +303,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -314,7 +314,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>
@@ -325,7 +325,7 @@ export default function Process() {
                         display: 'inline-block', 
                         width: '8px', 
                         height: '8px', 
-                        backgroundColor: '#00265F', 
+                        backgroundColor: '#E67E22', 
                         borderRadius: '50%', 
                         marginRight: '12px' 
                       }}></span>

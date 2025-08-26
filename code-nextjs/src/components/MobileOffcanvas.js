@@ -83,6 +83,15 @@ export default function MobileOffcanvas() {
                   <li>
                     <Link
                       onClick={handleClose}
+                      className={` ${isActive("/courses") ? "active" : ""}`}
+                      href="/courses"
+                    >
+                      Courses
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      onClick={handleClose}
                       className={` ${isActive("/process") ? "active" : ""}`}
                       href="/process"
                     >

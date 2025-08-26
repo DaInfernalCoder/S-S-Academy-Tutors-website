@@ -37,12 +37,12 @@ export default function WhyUs() {
     width: "90px", 
     height: "90px", 
     borderRadius: "50%", 
-    background: "linear-gradient(135deg, #00265F, #0047AB)", 
+    background: "linear-gradient(135deg, #FF8C00, #FFA500)", 
     display: "flex", 
     alignItems: "center", 
     justifyContent: "center",
     margin: "0 auto 30px",
-    boxShadow: "0 10px 25px rgba(0, 38, 95, 0.2)"
+    boxShadow: "0 10px 25px rgba(255, 140, 0, 0.2)"
   };
 
   const featureTitleStyle = {

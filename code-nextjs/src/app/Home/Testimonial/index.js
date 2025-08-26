@@ -15,10 +15,10 @@ export default function Testimonial() {
           <div className="container">
             <div className="row">
               <div className="col-lg-7 col-12">
-                <div className="section-title">
-                  <h3>Student & Parent Testimonials</h3>
+                <div className="section-title text-gray-700">
+                  <h3 className="text-gray-700">Student &amp; Parent Testimonials</h3>
                   <div className="line-bot"></div>
-                  <p>
+                  <p className="text-gray-700">
                     Discover how our personalized tutoring has transformed academic journeys and built lasting confidence in learning.
                   </p>
                 </div>

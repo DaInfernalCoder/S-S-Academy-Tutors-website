@@ -29,7 +29,7 @@ export default function SingleService(props) {
                 display: 'flex', 
                 justifyContent: 'center', 
                 alignItems: 'center',
-                backgroundColor: '#f5f8ff',
+                backgroundColor: '#fff5e6',
                 borderRadius: '50%',
                 overflow: 'hidden',
                 position: 'relative'
@@ -51,7 +51,7 @@ export default function SingleService(props) {
               <div style={{ 
                 width: '100px', 
                 height: '100px', 
-                backgroundColor: '#f5f8ff',
+                backgroundColor: '#fff5e6',
                 borderRadius: '50%',
                 display: 'flex',
                 justifyContent: 'center',

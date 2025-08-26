@@ -89,8 +89,8 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -90px;
-    width: 180px;
+    margin-left: -110px;
+    width: 220px;
     height: 35px;
     transform: skewX(-28deg);
   }
@@ -333,6 +333,7 @@
     padding: 0;
     position: relative;
     top: 5px;
+    margin-left: -20px;
   }
   .topbar .topbar-address {
     text-align: center;
@@ -409,8 +410,8 @@
   }
   .section-title h6::before {
     left: 50%;
-    margin-left: -90px;
-    width: 180px;
+    margin-left: -110px;
+    width: 220px;
     height: 35px;
     transform: skewX(-28deg);
   }

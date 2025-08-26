@@ -4,17 +4,12 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
-import HeroBg1 from "../../../../public/images/hero-bg-1.jpg";
-import HeroBg2 from "../../../../public/images/hero-bg-2.jpg";
-import HeroBg3 from "../../../../public/images/hero-bg-3.jpg";
-
 export default function Sliders() {
 // Hero sliders updated for tutoring content - all links properly connected to navigation 
 
   const [heroSliders, setheroSliders] = useState([
     {
       id: "slider1",
-      bgImg: HeroBg1,
       title: "Your Trusted Partner in Academic Success",
       subTitle:
         "Unlock your student's full potential with our personalized tutoring services. Schedule a consultation with our expert educators to explore tailored learning solutions for academic excellence.",
@@ -25,7 +20,6 @@ export default function Sliders() {
     },
     {
       id: "slider2",
-      bgImg: HeroBg2,
       title: "Excellence in Education, Personalized for Every Student",
       subTitle:
         "Connect with our team of experienced educators who are ready to help students navigate academic challenges and achieve sustainable learning success from elementary through college prep.",
@@ -36,7 +30,6 @@ export default function Sliders() {
     },
     {
       id: "slider3",
-      bgImg: HeroBg3,
       title: "Where Expert Tutoring Meets Measurable Academic Growth",
       subTitle:
         "Discover our proven 5-step tutoring methodology that transforms learning challenges into academic achievements. Learn more about how our structured process drives student success.",
@@ -64,7 +57,7 @@ export default function Sliders() {
             <SwiperSlide
               className="single-slider"
               style={{
-                backgroundImage: `url(${singleSlider.bgImg.src})`
+                backgroundColor: '#007BA7'
               }}
               key={singleSlider.id}
             >

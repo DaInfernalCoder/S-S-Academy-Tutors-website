@@ -3,6 +3,7 @@
 ===============================*/
 :root {
   --primary-color: #E67E22;
+  --primary-color-rgb: 230, 126, 34;
 }
 * {
   margin: 0;
@@ -169,7 +170,7 @@ input:-webkit-autofill:focus {
 .section-title h6::before {
   position: absolute;
   content: "";
-  width: 180px;
+  width: 280px;
   height: 35px;
   left: 50%;
   right: 0;
@@ -178,7 +179,7 @@ input:-webkit-autofill:focus {
   color: #fff;
   -webkit-transform: skewX(-28deg);
   transform: skewX(-28deg);
-  margin-left: -90px;
+  margin-left: -140px;
 }
 .section-title h3 {
   font-size: 30px;

@@ -83,6 +83,16 @@ export default function Navbar() {
                                 <li>
                                   <Link
                                     className={` ${
+                                      pathname === "/courses" ? "active" : ""
+                                    }`}
+                                    href="/courses"
+                                  >
+                                    Courses
+                                  </Link>
+                                </li>
+                                <li>
+                                  <Link
+                                    className={` ${
                                       pathname === "/process" ? "active" : ""
                                     }`}
                                     href="/process"
