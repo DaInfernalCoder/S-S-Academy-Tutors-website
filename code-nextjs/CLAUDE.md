@@ -20,5 +20,5 @@
 - **Paths**: Use `@/*` alias for src directory imports when possible
 - **Images**: Import and reference image assets directly in components
 
-## Supabase Integration
-The project uses Supabase for backend functionality. Follow established patterns when working with the Supabase client.
+## Contact Form Integration
+The project uses Google Forms for contact form submissions. The contact form is embedded as an iframe in the Contact component.
