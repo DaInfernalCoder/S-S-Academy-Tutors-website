@@ -74,10 +74,10 @@ export default function MobileOffcanvas() {
                   <li>
                     <Link
                       onClick={handleClose}
-                      className={` ${isActive("/about-us") ? "active" : ""}`}
-                      href="/about-us"
+                      className={` ${isActive("/why-us") ? "active" : ""}`}
+                      href="/why-us"
                     >
-                      About
+                      Why Us
                     </Link>
                   </li>
                   <li>
@@ -87,24 +87,6 @@ export default function MobileOffcanvas() {
                       href="/process"
                     >
                       Process
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      onClick={handleClose}
-                      className={` ${isActive("/business-for-sale") ? "active" : ""}`}
-                      href="/business-for-sale"
-                    >
-                      Business for Sale
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      onClick={handleClose}
-                      className={` ${isActive("/blog") ? "active" : ""}`}
-                      href="/blog"
-                    >
-                      Blog
                     </Link>
                   </li>
                   <li>
@@ -120,13 +102,7 @@ export default function MobileOffcanvas() {
               </nav>
               {/* Mobile menu modal bottom */}
               <div className="mobile-menu-modal-bottom">
-                <Link
-                  href="/book-consultation"
-                  className="theme-btn"
-                  onClick={handleClose}
-                >
-                  <span>book consultation</span>
-                </Link>
+                {/* Book consultation button removed */}
               </div>
             </div>
           </div>

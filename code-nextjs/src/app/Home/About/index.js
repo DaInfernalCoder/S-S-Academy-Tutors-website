@@ -19,7 +19,7 @@ export default function About() {
                 <Image 
 
                   src={AboutImg} 
-                  alt="About PeakValue" 
+                  alt="About S&S Academy Tutors" 
                   width={500} 
                   height={500} 
                   style={{ 
@@ -38,42 +38,42 @@ export default function About() {
             >
               {/* <!-- About content --> */}
               <div className="about-content">
-                <span>About PeakValue</span>
+                <span>About S&S Academy Tutors</span>
                 <h2>
-                  Your Trusted Partner in Business Transactions
+                  Your Trusted Partner in Academic Success
                 </h2>
                 <p>
-                  At PeakValue, we specialize in connecting business sellers with qualified buyers, 
-                  providing expert guidance throughout the entire transaction process. 
-                  Our professional team ensures a streamlined experience for both 
-                  buying and selling businesses.
+                  At S&S Academy Tutors, we specialize in connecting students with personalized 
+                  learning experiences, providing expert guidance throughout their educational journey. 
+                  Our professional team ensures a comprehensive approach to help students 
+                  excel in their studies and achieve their academic goals.
                 </p>
                 <div className="feature">
                   {/* <!-- Single Feature --> */}
                   <div className="single-feature">
-                    <i className="fa fa-briefcase"></i>
+                    <i className="fa fa-child"></i>
                     <div className="feature-content">
-                      <h3>Expert Business Valuation</h3>
+                      <h3>Personalized Tutoring</h3>
                       <p>
-                        Professional business valuation services to help you 
-                        understand your business&apos;s true market value and potential
+                        Customized learning programs tailored to each student&apos;s 
+                        unique needs, learning style, and academic goals
                       </p>
                     </div>
                   </div>
                   {/* <!-- Single Feature --> */}
                   <div className="single-feature">
-                    <i className="fa fa-code"></i>
+                    <i className="fa fa-university"></i>
                     <div className="feature-content">
-                      <h3>Comprehensive Brokerage Services</h3>
+                      <h3>Comprehensive Academic Support</h3>
                       <p>
-                        End-to-end support for buying and selling businesses, 
-                        including marketing, buyer screening, and transaction guidance
+                        Full range of educational services from elementary to college prep, 
+                        including test preparation, course planning, and college counseling
                       </p>
                     </div>
                   </div>
                 </div>
                 <div className="about-theme-btn">
-                  <Link href="/about-us" className="theme-btn">
+                  <Link href="/why-us" className="theme-btn">
                     More about us
                   </Link>
                 </div>

@@ -21,7 +21,7 @@ const supabase = createClient(supabaseUrl || '', supabaseServiceKey || '');
 
 // Initialize Resend
 const resendApiKey = process.env.RESEND_API_KEY;
-const resend = new Resend(resendApiKey || ''); // Add fallback for build time
+const resend = resendApiKey ? new Resend(resendApiKey) : null; // Only initialize if API key exists
 
 // Business email to receive notifications - using the correct env variable names
 const BUSINESS_EMAIL = process.env.CONTACT_ADMIN_EMAIL || 'info@peakvaluebusiness.com';
@@ -81,7 +81,7 @@ export async function POST(request) {
     }
 
     // Check if Resend API key is available
-    if (!resendApiKey) {
+    if (!resend) {
       console.error('Resend API key is missing');
       await supabase
         .from('contacts')

@@ -9,26 +9,26 @@ import HeroBg2 from "../../../../public/images/hero-bg-2.jpg";
 import HeroBg3 from "../../../../public/images/hero-bg-3.jpg";
 
 export default function Sliders() {
-// TODO: edit the sliders and link buttons to the different pages in the nav bar 
+// Hero sliders updated for tutoring content - all links properly connected to navigation 
 
   const [heroSliders, setheroSliders] = useState([
     {
       id: "slider1",
       bgImg: HeroBg1,
-      title: "We Redefine What It Means to Be Business Advisors",
+      title: "Your Trusted Partner in Academic Success",
       subTitle:
-        "Elevate your business strategy with our expert consultation services. Schedule a session with our advisors to explore tailored solutions for your business challenges.",
+        "Unlock your student's full potential with our personalized tutoring services. Schedule a consultation with our expert educators to explore tailored learning solutions for academic excellence.",
       button: {
-        text: "Book Consultation",
-        link: "/book-consultation",
+        text: "Contact Us",
+        link: "/#contact",
       },
     },
     {
       id: "slider2",
       bgImg: HeroBg2,
-      title: "We do Business Advisory Better",
+      title: "Excellence in Education, Personalized for Every Student",
       subTitle:
-        "Connect with our team of experienced business professionals who are ready to help you navigate complex business landscapes and achieve sustainable growth.",
+        "Connect with our team of experienced educators who are ready to help students navigate academic challenges and achieve sustainable learning success from elementary through college prep.",
       button: {
         text: "Contact Us",
         link: "/contact",
@@ -37,9 +37,9 @@ export default function Sliders() {
     {
       id: "slider3",
       bgImg: HeroBg3,
-      title: "Where Advisory Services Meet Actionable Results",
+      title: "Where Expert Tutoring Meets Measurable Academic Growth",
       subTitle:
-        "Discover our proven methodology that transforms strategic insights into measurable outcomes. Learn more about how our structured process drives business success.",
+        "Discover our proven 5-step tutoring methodology that transforms learning challenges into academic achievements. Learn more about how our structured process drives student success.",
       button: {
         text: "Our Process",
         link: "/process",

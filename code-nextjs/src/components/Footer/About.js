@@ -12,7 +12,7 @@ export default function About() {
             <Link className="logo" href="/">
               <Image 
                 src={Logo} 
-                alt="PeakValue Business Logo" 
+                alt="S&S Academy Tutors Logo" 
                 width={200} 
                 height={100} 
                 style={{ 
@@ -25,9 +25,8 @@ export default function About() {
           </div>
           <div className="about-description">
             <p>
-              PeakValue Business is your trusted partner in business brokerage. We connect qualified buyers 
-              with successful sellers, providing expert guidance through every step of your 
-              business transaction journey.
+              S&S Academy Tutors is your trusted partner in academic success. We provide personalized 
+              tutoring services to help students excel in their studies and achieve their educational goals.
             </p>
           </div>
           {/* <!-- Quick Link Box -->	 */}
@@ -37,7 +36,7 @@ export default function About() {
             </div>
             <div className="contact-text">
               <p>Talk To Our Support</p>
-              <h5>1-832-712-4162</h5>
+              <h5>(346) -545-7701</h5>
             </div>
           </div>
         </div>

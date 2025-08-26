@@ -9,8 +9,7 @@ export default function Copyright() {
             <div className="col-12">
               <div className="copyright-text text-center text-white">
                 <p>
-                  Copyright © {new Date().getFullYear()} PeakValue Business. All rights reserved. 
-                  
+                  Copyright © {new Date().getFullYear()} S&S Academy Tutors. All rights reserved.
                 </p>
               </div>
             </div>

@@ -1,9 +1,11 @@
 "use client";
 
+import Link from "next/link";
+
 export default function CallToAction({
-  title = "Ready to Discuss Your Business Goals?",
-  description = "If you're a business owner planning your next move or looking to make an acquisition, PeakValue Advisors would love to understand your goals and dreams and explore how we can help you achieve them.",
-  buttonText = "Book a Discovery Call"
+  title = "Ready to Achieve Academic Success?",
+  description = "If you're a student or parent looking to improve academic performance, S&S Academy Tutors would love to understand your learning goals and explore how we can help you achieve them.",
+  buttonText = "Book a Consultation"
 }) {
   return (
     <section className="call-action section-padding" style={{ 
@@ -35,8 +37,8 @@ export default function CallToAction({
                 {description}
               </p>
               <div className="call-action-btn">
-                <a 
-                  href="/book-consultation"
+                <Link 
+                  href="/#contact"
                   className="theme-btn"
                   style={{
                     display: "inline-block",
@@ -52,7 +54,7 @@ export default function CallToAction({
                   }}
                 >
                   {buttonText}
-                </a>
+                </Link>
               </div>
             </div>
           </div>

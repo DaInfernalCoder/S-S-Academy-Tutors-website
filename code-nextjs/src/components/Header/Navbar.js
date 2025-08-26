@@ -73,11 +73,11 @@ export default function Navbar() {
                                 <li>
                                   <Link
                                     className={` ${
-                                      pathname === "/about-us" ? "active" : ""
+                                      pathname === "/why-us" ? "active" : ""
                                     }`}
-                                    href="/about-us"
+                                    href="/why-us"
                                   >
-                                    About
+                                    Why Us
                                   </Link>
                                 </li>
                                 <li>
@@ -88,26 +88,6 @@ export default function Navbar() {
                                     href="/process"
                                   >
                                     Process
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link
-                                    className={` ${
-                                      pathname === "/business-for-sale" ? "active" : ""
-                                    }`}
-                                    href="/business-for-sale"
-                                  >
-                                    Business for Sale
-                                  </Link>
-                                </li>
-                                <li>
-                                  <Link
-                                    className={` ${
-                                      pathname === "/blog" ? "active" : ""
-                                    }`}
-                                    href="/blog"
-                                  >
-                                    Blog
                                   </Link>
                                 </li>
                                 <li>
@@ -126,9 +106,7 @@ export default function Navbar() {
                         </div>
                         {/* <!-- Menu-Right --> */}
                         <div className="menu-right">
-                          <Link href="/book-consultation" className="theme-btn">
-                            book consultation
-                          </Link>
+                          {/* Book consultation button removed */}
                         </div>
                         {/* <!-- End-Menu-Right --> */}
                       </div>

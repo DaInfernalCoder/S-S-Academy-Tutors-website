@@ -2,7 +2,7 @@
  Reset CSS
 ===============================*/
 :root {
-  --primary-color: #00265F;
+  --primary-color: #E67E22;
 }
 * {
   margin: 0;
@@ -169,7 +169,7 @@ input:-webkit-autofill:focus {
 .section-title h6::before {
   position: absolute;
   content: "";
-  width: 120px;
+  width: 180px;
   height: 35px;
   left: 50%;
   right: 0;
@@ -178,7 +178,7 @@ input:-webkit-autofill:focus {
   color: #fff;
   -webkit-transform: skewX(-28deg);
   transform: skewX(-28deg);
-  margin-left: -60px;
+  margin-left: -90px;
 }
 .section-title h3 {
   font-size: 30px;

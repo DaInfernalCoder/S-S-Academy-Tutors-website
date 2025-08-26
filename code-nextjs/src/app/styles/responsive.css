@@ -614,6 +614,11 @@
   .contact-area .contact-form .form-group {
     margin-bottom: 5px;
   }
+  
+  /* Google Form Responsive Styles */
+  .google-form-iframe {
+    min-height: 500px;
+  }
   .error-inner .error-top h1 {
     font-size: 90px;
   }

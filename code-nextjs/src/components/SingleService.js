@@ -60,7 +60,6 @@ export default function SingleService(props) {
                 <i className={icon ? icon : "fa fa-edit"} style={{ fontSize: '32px' }}></i>
               </div>
             )}
-            <i className={icon ? icon : "fa fa-edit"}></i>
           </div>
         </div>
         <div className="service-content">

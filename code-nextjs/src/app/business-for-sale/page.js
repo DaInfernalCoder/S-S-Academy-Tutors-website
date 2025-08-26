@@ -91,7 +91,7 @@ export default function BusinessForSale() {
                     Contact Us
                   </Link>
                   
-                  <Link href="/book-consultation" style={{
+                  <Link href="/#contact" style={{
                     display: "inline-block",
                     padding: "15px 35px",
                     backgroundColor: "white",
@@ -102,7 +102,7 @@ export default function BusinessForSale() {
                     textDecoration: "none",
                     transition: "all 0.3s ease"
                   }}>
-                    Book a Consultation
+                    Get In Touch
                   </Link>
                 </div>
               </div>

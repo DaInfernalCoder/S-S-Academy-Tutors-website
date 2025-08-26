@@ -9,27 +9,43 @@ export default function Sliders() {
   const [testimonialSliders, settestimonialSliders] = useState([
     {
       id: "slider1",
-      name: "Don Babineaux",
-      designation: "Former President and Co-Owner, Century Instruments & Machine Co., Inc.",
+      name: "Sarah M.",
+      designation: "Parent",
       image: "/images/testimonial/testi-1.jpg",
       description:
-        "\"One of your key strengths lies in your ability to navigate complex negotiations with ease, as you consistently exhibited a deep understanding of the industry landscape, which translated into well-informed decision-making throughout the process.  Your strategic approach, attention to detail, and comprehensive understanding of the market dynamics played a pivotal role in ensuring a seamless and profitable transaction in the sale of our business.\""
+        "\"My daughter's grades in Algebra went from a C to an A in just one semester. The tutors not only explained the concepts clearly but also gave her the confidence she was missing in math. I can't thank them enough!\""
     },
     {
       id: "slider2",
-      name: "Gonzalo & Yasmin Alvarado",
-      designation: "President, Sweet Milly LLC",
+      name: "Jason L.",
+      designation: "High School Junior",
       image: "/images/testimonial/testi-2.jpg",
       description:
-        "\"Your great enthusiasm, empathy and security , managed to understand what we were looking for and transmit the confidence we needed to achieve it. We are extremely grateful for having counted on your services, since beyond limiting itself to its functions, it managed to exceed our expectations, becoming a fundamental part of achieving the necessary agreements between all parties.\"",
+        "\"As a student preparing for the SAT, I was overwhelmed. The personalized practice and strategies I learned here helped me raise my score by 180 points. Now I feel fully ready for college applications!\""
     },
     {
       id: "slider3",
-      name: "Surangi Udugama",
-      designation: "CEO, Hanna and Peige Sriwardane Company LLC",
+      name: "Priya K.",
+      designation: "10th Grade",
       image: "/images/testimonial/testi-3.jpg",
       description:
-        "\"You exhibited a genuine interest in understanding our vision and needs as though we felt that we are talking to a trusted friend rather than a business broker. Your commitment to learning about our goals and aspirations for the business truly sets you apart. We wholeheartedly recommend you to anyone seeking a business advisor in selling or buying a business who genuinely cares about their clients success.\"",
+        "\"What I love most is how patient and approachable the tutors are. They never make you feel bad for not understanding something right away. Learning here feels motivating and stress-free.\""
+    },
+    {
+      id: "slider4",
+      name: "Daniel R.",
+      designation: "College Freshman",
+      image: "/images/testimonial/testi-1.jpg",
+      description:
+        "\"The tutors didn't just help me with homework—they taught me how to actually study and manage my time better. Those skills carried over into all my classes. Best decision I made this year!\""
+    },
+    {
+      id: "slider5",
+      name: "Mark T.",
+      designation: "Parent",
+      image: "/images/testimonial/testi-2.jpg",
+      description:
+        "\"We tried a few other tutoring services before, but none compared to this one. The tutors here genuinely care about their students' progress, and it shows in the results. Highly recommend to any parent!\""
     },
   ]);
 

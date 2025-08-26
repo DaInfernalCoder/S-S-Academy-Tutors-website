@@ -12,7 +12,7 @@ export default function Service() {
               <SectionTitle 
                 smTitle="Our Expertise"
                 title="Professional Services"
-                description="We offer comprehensive business solutions to help you navigate complex challenges and achieve sustainable growth for your organization."
+                description="We offer comprehensive tutoring solutions to help students navigate academic challenges and achieve sustainable success in their educational journey."
               />
             </div>
           </div>
@@ -22,9 +22,11 @@ export default function Service() {
               data-wow-duration="1s"
             >
             <SingleService
-              icon="fa fa-briefcase"
-              title="Business Consulting"
-              description="Strategic guidance to optimize your operations, streamline processes, and drive business growth. We analyze your business challenges and develop tailored solutions for sustainable success."
+              cardNumberClass="number"
+              cardNumber="1"
+              icon="fa fa-child"
+              title="Elementary & Middle School (K-8)"
+              description="Comprehensive support for foundational learning in English, Math, Science, and Social Studies. We offer On-Level and AAC programs tailored to help younger students build strong academic foundations and develop essential study skills."
               btnURL="contact"
               image="https://images.unsplash.com/photo-1604307743907-df8d5fe9f1de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />
@@ -34,9 +36,11 @@ export default function Service() {
               data-wow-duration="1.1s"
             >
             <SingleService
-              icon="fa fa-handshake-o"
-              title="Strategic Acquisitions"
-              description="Expert assistance in identifying, evaluating, and executing strategic acquisitions to expand your market presence. We guide you through the entire acquisition process from target identification to integration."
+              cardNumberClass="number"
+              cardNumber="2"
+              icon="fa fa-university"
+              title="High School & Advanced Courses"
+              description="Expert instruction in high school subjects including English 1-2, Sciences (Biology, Chemistry, Physics), and Mathematics (Algebra 1, Geometry, Algebra 2, Pre-Calculus). Plus comprehensive AP courses and OnRamps programs for college-bound students."
               btnURL="contact"
               image="https://images.unsplash.com/photo-1512486130939-2c4f79935e4f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />
@@ -48,9 +52,9 @@ export default function Service() {
             <SingleService
               cardNumberClass="number last"
               cardNumber="3"
-              icon="fa fa-line-chart"
-              title="Exit Strategies"
-              description="Comprehensive planning and execution of business exits and divestitures to maximize value. We help business owners prepare for successful transitions through strategic planning and market positioning."
+              icon="fa fa-graduation-cap"
+              title="Test Prep & College Counseling"
+              description="Comprehensive preparation for STAAR exams, EOC tests, CBEs, SAT, ACT, and PSAT. Plus personalized college counseling including course planning, extracurricular guidance, and strategic college application support."
               btnURL="contact"
               image="https://images.unsplash.com/photo-1542959864-4b02e6607fe4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=400"
             />

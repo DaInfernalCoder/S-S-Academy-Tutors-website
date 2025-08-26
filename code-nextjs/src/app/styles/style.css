@@ -2204,6 +2204,21 @@ Version: 1.0.0
   color: #000;
   background: #fff;
 }
+
+/* Google Form Iframe Styles */
+.google-form-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.google-form-iframe {
+  width: 100%;
+  min-height: 600px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 /* Google Map */
 .maps-area {
   height: 450px;

@@ -9,21 +9,15 @@ export default function Topbar() {
               <div className="topbar-address">
                 <ul>
                   <li>
-                    <a href="#">
+                    <a href="tel:(346)-545-7701">
                       <i className="fa fa-phone"></i>
-                      <span>Phone:</span> +832-712-4162
+                      <span>Phone:</span> (346) -545-7701
                     </a>
                   </li>
                   <li>
-                    <a href="#">
+                    <a href="mailto:snsacademytutors@gmail.com">
                       <i className="fa fa-envelope"></i>
-                      <span>Email: </span> info@peakvaluebusiness.com 
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      <i className="fa fa-map-marker"></i>
-                      <span>Location:</span> 1334 Brittmoore Road, Suite 1327, Houston, TX 77043 {" "}
+                      <span>Email: </span> snsacademytutors@gmail.com 
                     </a>
                   </li>
                 </ul>

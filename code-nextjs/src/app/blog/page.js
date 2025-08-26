@@ -42,10 +42,9 @@ export default function Blog() {
       {/* <!-- End Blog Archive --> */}
       
       <CallToAction
-        title="Need Personalized Business Advice?"
-        description="Schedule a consultation with our business brokers to discuss your specific needs and goals."
-        buttonText="Book a Consultation"
-        buttonLink="/book-consultation"
+        title="Need Personalized Academic Support?"
+        description="Get in touch with our tutors to discuss your specific learning needs and goals."
+        buttonText="Contact Us"
       />
     </>
   );

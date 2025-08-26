@@ -10,18 +10,13 @@ export default function Contact() {
           <div className="footer-contact">
             <ul className="contact-bottom">
               <li>
-                <Link href="#">
-                  <i className="fa fa-map-marker"></i>Houston, Texas
+                <Link href="tel:(346)-545-7701">
+                  <i className="fa fa-phone"></i>(346) -545-7701
                 </Link>
               </li>
               <li>
-                <Link href="tel:1-832-712-4162">
-                  <i className="fa fa-phone"></i>1-832-712-4162
-                </Link>
-              </li>
-              <li>
-                <Link href="mailto:info@peakvaluebusiness.com">
-                  <i className="fa fa-envelope"></i>info@peakvaluebusiness.com
+                <Link href="mailto:snsacademytutors@gmail.com">
+                  <i className="fa fa-envelope"></i>snsacademytutors@gmail.com
                 </Link>
               </li>
               <li>

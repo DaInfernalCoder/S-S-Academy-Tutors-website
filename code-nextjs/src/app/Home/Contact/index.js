@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       {/* <!-- Contact Area --> */}
-      <section className="contact-area">
+      <section id="contact" className="contact-area">
         <div className="content-area">
           <div
             className="left-col"
@@ -22,10 +22,10 @@ export default function Contact() {
                 <div className="contact-right">
                   <div className="top-content">
                     <h3>
-                      <span>Contact</span>Request A Free Consulting
+                      <span>Contact</span>Request A Free Consultation
                     </h3>
                     <p>
-                    Find out what your business is really worth and get a clear picture of how the selling process works with our expert help. We&apos;re here to guide you through buying or selling your business, and you can count on us to keep everything completely confidential.
+                    Discover how personalized tutoring can help improve academic performance and get a clear picture of how our learning process works with our expert help. We&apos;re here to guide you through your educational journey, and you can count on us to provide personalized support for every student.
                     </p>
                   </div>
                   <Form />

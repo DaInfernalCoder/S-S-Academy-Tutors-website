@@ -16,7 +16,7 @@ const ColorPlate = () => {
 
   ];
 
-  const [primaryColor, setPrimaryColor] = useState(colors[8]);
+  const [primaryColor, setPrimaryColor] = useState(colors[4]);
 
   useEffect(() => {
     document.documentElement.style.setProperty("--primary-color", primaryColor);
