@@ -1,27 +1,13 @@
-import Image from "next/image";
-import Link from "next/link";
-import Logo from "../../../public/images/footer-logo.png";
-
 export default function About() {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12">
+      <div className="col-lg-4 col-md-6 col-12">
         {/* <!-- Single Widget --> */}
         <div className="single-widget footer-about">
-          <div className="footer-logo">
-            <Link className="logo" href="/">
-              <Image 
-                src={Logo} 
-                alt="S&S Academy Tutors Logo" 
-                width={200} 
-                height={100} 
-                style={{ 
-                  maxWidth: '100%', 
-                  height: 'auto' 
-                }} 
-                priority
-              />
-            </Link>
+          <div className="footer-brand-section mb-4">
+            <h3 className="widget-title mb-3" style={{color: '#fff', fontSize: '24px', fontWeight: '600'}}>
+              S&S Academy Tutors
+            </h3>
           </div>
           <div className="about-description">
             <p>

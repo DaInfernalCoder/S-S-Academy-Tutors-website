@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Contact() {
   return (
     <>
-      <div className="col-lg-3 col-md-6 col-12">
+      <div className="col-lg-4 col-md-6 col-12">
         <div className="single-widget">
           <h3 className="widget-title">Contact</h3>
           {/* <!-- Footer Contact --> */}

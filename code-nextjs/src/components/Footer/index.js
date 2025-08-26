@@ -22,12 +22,10 @@ export default function Footer() {
       >
         <div className="footer-top py-5">
           <div className="container">
-            <div className="row gy-4 justify-content-between">
+            <div className="row gy-4 justify-content-center">
               <About />
               <Links />
-              <div className="col-lg-4 col-md-6 col-12">
-                <Contact />
-              </div>
+              <Contact />
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Links() {
   return (
     <>
-      <div className="col-lg-2 col-md-6 col-12">
+      <div className="col-lg-4 col-md-6 col-12">
         {/* <!-- Quick Links --> */}
         <div className="single-widget f-links">
           <h3 className="widget-title">Quick Links</h3>
