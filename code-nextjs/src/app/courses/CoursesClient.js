@@ -125,7 +125,6 @@ export default function CoursesClient() {
         courses: [
           "UIL Academics (Number Sense, Math, Science, Calculator, Computer Science etc.)",
           "TMSCA Math & Science", "AMC 8 / 10 / 12", "USAPhO / F=ma Physics Olympiad Prep",
-          "USACO (USA Computing Olympiad – Bronze & Silver)",
           "Science Olympiad (select events, e.g. Scrambler, Physics-related)"
         ],
         description: "Competitive academic programs to excel in contests and olympiads"
