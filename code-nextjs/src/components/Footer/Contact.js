@@ -19,11 +19,6 @@ export default function Contact() {
                   <i className="fa fa-envelope"></i>snsacademytutors@gmail.com
                 </Link>
               </li>
-              <li>
-                <Link href="#">
-                  <i className="fa fa-clock-o"></i>Mon - Fri: 9:00 AM - 5:00 PM CST
-                </Link>
-              </li>
             </ul>
           </div>
         </div>
