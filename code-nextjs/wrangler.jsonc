@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "snsacademy-tutors",
+  "account_id": "bb8bd238dc1fcb3cb43ca82e6fe2425c",
+  "main": "worker-entry.mjs",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "images": { "binding": "IMAGES" },
+  "r2_buckets": [{ "binding": "MEDIA", "bucket_name": "snsacademy-media" }],
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "snsacademy-tutors" }],
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true }
+}
